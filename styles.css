@@ -1,0 +1,97 @@
+body {
+  background-image: url("ImagenesRanking/Fondo1.jpg"), 
+  url("ImagenesRanking/Fondo2.png"), 
+  url("ImagenesRanking/Fondo3.png");
+  background-size: cover, contain, 50%; 
+  background-repeat: no-repeat; 
+  background-position: center, top right, bottom left;
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Titulo{
+    color:#000 ;
+    text-align: center;
+    justify-content: space-around;
+}
+  
+.ranking-item {
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    color: #000;
+    transition: transform 0.3s ease;
+  }
+  .ranking-item:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width: 400px) {
+    .ranking-item h4{
+      visibility: hidden;
+    }
+    
+    .ranking-item:hover {
+      visibility: visible;
+    }
+  }
+  
+  .Units{
+    text-align: end;
+  }
+
+  #toyota {
+    background-image: url("ImagenesRanking/Toyota.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: rgb(255,201,14);
+  }
+  #Volkswagen {
+    background-color: rgb(195, 111, 9);
+    background-image: url("ImagenesRanking/Volkswagen.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #fiat {
+    background-image: url("ImagenesRanking/Fiat.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: rgb(195,195,195);
+  }
+  #Ford {
+    background-image: url("ImagenesRanking/Ford.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #PSA {
+    background-image: url("ImagenesRanking/PSA.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #Renault {
+    background-image: url("ImagenesRanking/Renault.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #Nissan {
+    background-image: url("ImagenesRanking/Nissan.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #GMC{
+    background-image: url("ImagenesRanking/GMC.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
